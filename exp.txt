@@ -1,0 +1,96 @@
+db.mydb.insert([{},{}]
+
+/**** Hr schema *******/
+
+db.emp.insert(
+{
+   empid:123,
+   name:
+      {
+      F_name:"a",
+      L_name:"b",
+      },
+   email:
+     {
+     personal_email:"",
+     professional_email:"",
+     },
+   phone_number: 
+     {
+     personal:
+     professionl:
+     },
+    JOb:[
+       {
+         job_id:
+         job_title:
+        }
+         }],
+
+     deprtment:{
+              department_name:,
+             location:
+              {}
+}   
+
+
+}
+)
+
+var a = [
+{
+name:"aask",
+location:"india",
+name1:"aask"
+},
+
+{name:"aask",
+location:"india"
+}
+]
+
+name:{a
+db.first.insert({name:{a,b}})
+db.first.find({},{})
+
+
+db.products.find({price:{$lt:200}},{price:1})
+
+db.products.find({price:{$lt:200}},{price:1}).sort({name:-1}).pretty()
+
+db.products.update({price:129},{$set:{price:132}})
+
+db.products.delete({price:199})
+
+db.products.insert([{name:"a"},{name:"b"},{name:"c"}])
+
+
+
+var a = db.first.initializeUnorderedBulkOp();
+
+a.insert({
+    name:"a"
+})
+a.insert({
+    name:"b"
+})(
+
+a.excute()
+
+
+mongo --port 
+
+
+
+
+
+
+
+/***Text search***************/
+
+db.text.insert({
+   title:"hi this is me",
+    trainer:"Aakash",
+    batch:"3rd",
+    topic:["nosql", "schema", "curd","replication"]
+})
